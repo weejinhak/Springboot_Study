@@ -3,7 +3,6 @@ package com.example.demo.service;
 import com.example.demo.dto.GuestbookDTO;
 import com.example.demo.dto.PageRequestDTO;
 import com.example.demo.dto.PageResultDTO;
-import com.example.demo.entity.Guestbook;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

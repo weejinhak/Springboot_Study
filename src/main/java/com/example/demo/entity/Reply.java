@@ -5,20 +5,22 @@ import lombok.*;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "tbl_memo")
-@ToString
-@Getter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Memo {
+@Getter
+@ToString(exclude = "writer")
+public class Reply extends BaseEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long mno;
+    private Long rno;
 
-    @Column(length = 200,nullable = false)
-    private String memoText;
+    private String text;
 
+    private String replyer;
+
+    @ManyToOne
+    private Board board;
 
 }

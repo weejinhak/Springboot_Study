@@ -1,6 +1,5 @@
 package com.example.demo.repository;
 
-import com.example.demo.entity.Guestbook;
 import com.example.demo.entity.QGuestbook;
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.core.types.dsl.BooleanExpression;

@@ -1,6 +1,5 @@
 package com.example.demo.page;
 
-import com.example.demo.entity.Memo;
 import com.example.demo.repository.MemoRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
